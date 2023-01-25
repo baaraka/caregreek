@@ -1,0 +1,49 @@
+.topBar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.leftTopBar {
+  flex: 3;
+  width: 100%;
+  height: auto;
+  margin-left: 100px;
+}
+.centralTopBar {
+  flex: 6;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+.rightTopBar {
+  flex: 3;
+  width: 100%;
+  height: auto;
+}
+.leftHeading {
+  font-size: 40px;
+  color: rgb(195, 149, 33);
+}
+.centralTopBarList {
+  list-style: none;
+  justify-content: center;
+  margin-top: 17px;
+}
+.centralTopBarListItem {
+  color: rgb(140, 108, 50);
+  margin-right: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.rightTopBarBtn {
+  color: rgb(71, 51, 12);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: 3px solid rgb(239, 197, 91);
+  border-radius: 20px;
+  border-top-right-radius: 2px;
+  background: none;
+}
