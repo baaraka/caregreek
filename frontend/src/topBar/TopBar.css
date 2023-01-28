@@ -1,8 +1,12 @@
 .topBar {
+  top: 0;
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
+  padding-bottom: 10px;
+  position: fixed;
+  z-index: 1000;
   background-color: white;
 }
 .leftTopBar {
@@ -38,7 +42,7 @@
   cursor: pointer;
 }
 .rightTopBarBtn {
-  color: rgb(71, 51, 12);
+  color: rgb(49, 35, 7);
   font-size: 15px;
   font-weight: 500;
   padding: 8px 20px;
