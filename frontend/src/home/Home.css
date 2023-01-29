@@ -4,7 +4,11 @@
   display: flex;
   margin-top: 90px;
   overflow: hidden;
-  background-color: rgb(238, 246, 238);
+  background-image: linear-gradient(
+    89.36deg,
+    rgba(255, 236, 210, 0.4) -6.96%,
+    rgba(193, 249, 195, 0.4) 105.9%
+  );
 }
 
 .homeTitle {
@@ -21,20 +25,20 @@
   padding-bottom: 20px;
 }
 .homeHeadings {
-  color: rgb(49, 35, 7);
+  color: #3d340c;
 }
 .careGreek {
-  color: rgb(24, 148, 24);
+  color: #00c231;
 }
 .homeBtn {
-  color: rgb(71, 51, 12);
+  color: #3d340c;
   font-size: 15px;
   font-weight: 500;
   padding: 8px 20px;
-  border: 3px solid rgb(239, 197, 91);
+  border: 3px solid #f2d85f;
   border-radius: 20px;
   border-top-right-radius: 2px;
-  background: rgb(239, 197, 91);
+  background-color: #f2d85f;
 }
 .homeLeft {
   width: 100%;
