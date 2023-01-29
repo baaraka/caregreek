@@ -1,0 +1,40 @@
+.why {
+  width: 100%;
+  height: 100%;
+  margin-top: -370px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whyTitle {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.whyHeading {
+  font-size: 25px;
+  color: #3d340c;
+  padding-bottom: 10px;
+}
+.whySpanDiv {
+  display: flex;
+}
+.whyParagraph {
+  color: #806f27;
+  padding-left: 10px;
+  padding-right: 100px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.whyIcon {
+  color: #806f27;
+  font-size: 20px;
+}
+.whyVideoBody {
+  width: 50%;
+  height: 100%;
+  margin-left: 35px;
+}
