@@ -16,6 +16,9 @@
   margin-left: 100px;
   padding-top: 10px;
 }
+.leftBarImg {
+  object-fit: cover;
+}
 .centralTopBar {
   flex: 6;
   height: auto;
