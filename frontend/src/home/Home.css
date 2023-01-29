@@ -3,6 +3,7 @@
   height: 100%;
   display: flex;
   margin-top: 90px;
+  overflow: hidden;
   background-color: rgb(238, 246, 238);
 }
 
