@@ -4,7 +4,11 @@ function TopBar() {
   return (
     <nav className="topBar">
       <div className="leftTopBar">
-        <h1 className="leftHeading">CareGreek</h1>
+        <img
+          src="http://caregreek.com/static/media/logo.597684787fc988fd5ffb.png"
+          alt=""
+          className="leftBarImg"
+        />
       </div>
       <div className="centralTopBar">
         <ul className="centralTopBarList">
