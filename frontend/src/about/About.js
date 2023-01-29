@@ -21,7 +21,7 @@ function About() {
         />
       </div>
       <div className="aboutTitle">
-        <h1 className="aboutHeading">About Us</h1>
+        <h3 className="aboutHeading">About Us</h3>
         <p className="aboutParagraph">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
           quidem nobis obcaecati, eaque iure a consectetur sint autem quo
