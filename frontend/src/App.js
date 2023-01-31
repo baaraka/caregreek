@@ -1,6 +1,7 @@
 import About from "./about/About";
 import "./App.css";
 import Home from "./home/Home";
+import Services from "./services/Services";
 import TopBar from "./topBar/TopBar";
 import Why from "./why/Why";
 
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Why />
+      <Services />
     </div>
   );
 }
