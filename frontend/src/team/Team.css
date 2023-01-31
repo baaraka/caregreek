@@ -1,0 +1,28 @@
+.team {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.teamTitle {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.teamHeading {
+  font-size: 25px;
+  color: #3d340c;
+}
+.teamParagraph {
+  line-height: 1.5;
+}
+.teamImage {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
