@@ -1,0 +1,118 @@
+.footer {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.footerDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerLeft {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.footerLeftParagraph {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.footerLeftParagraphItem {
+  line-height: 1.6;
+  color: #806f27;
+}
+.footerCenter {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 110px;
+}
+.footerCenterList {
+  list-style: none;
+  margin-bottom: 110px;
+}
+.footerListItem {
+  color: #806f27;
+  margin-top: 40px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+.footerRight {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.footerRightTitle {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.footerRightHeading {
+  color: #3d340c;
+}
+.footerRightEmail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.footerContactIcon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  margin-top: 10px;
+}
+.footerCopyright {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.footerCopyrightItem {
+  text-align: center;
+  color: #806f27;
+}
+.footerContactIconItem {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: #806f27;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: solid 2px hsl(0deg 1% 50% / 20%);
+}
+.footerEmail {
+  font-size: 20px;
+  color: #806f27;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  border: solid 2px hsl(0deg 1% 50% / 20%);
+}
+.footerEmailItem {
+  color: #806f27;
+  margin-left: 10px;
+}
