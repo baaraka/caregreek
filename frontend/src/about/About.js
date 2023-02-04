@@ -29,7 +29,7 @@ function About() {
           repudiandae aperiam blanditiis? Lorem ipsum,repudiandae aperiam
           blanditiis?
         </p>
-        <button className="aboutBtn">Read More</button>
+        <button className="aboutBtn">READ MORE</button>
       </div>
     </div>
   );
