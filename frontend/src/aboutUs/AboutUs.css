@@ -1,0 +1,62 @@
+.homeAboutUs {
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.homeAboutUsTitle {
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://thumbs.dreamstime.com/b/smiling-young-cleaning-lady-pink-rubber-gloves-showing-ok-sign-thumbs-up-kitchen-131531802.jpg");
+}
+.homeAboutUsHeading {
+  color: white;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 250px;
+}
+.homeAboutUsListDiv {
+  width: 100%;
+  height: 500px;
+  bottom: 200px;
+  left: 650px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.homeAboutUsList {
+  list-style: none;
+}
+.homeAboutUsListItem {
+  color: white;
+  font-size: 30px;
+  line-height: 0.8;
+}
+
+.aboutUs {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  background-color: white;
+}
+.aboutUsImage {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.aboutUsParagraph {
+  line-height: 1.5;
+  padding-right: 20px;
+}
