@@ -89,7 +89,8 @@
   position: relative;
 }
 .star {
-  color: rgb(239, 197, 91);
+  color: #f2d85f;
+  padding: 0 2px 2px 2px;
 }
 .homeDash1 {
   width: 100%;
