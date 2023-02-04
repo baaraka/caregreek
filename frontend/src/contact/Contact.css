@@ -1,0 +1,123 @@
+.contact {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  bottom: 170px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.contactDivDiv {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 20px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 20px 0 hsl(0deg 1% 50% / 20%);
+}
+.contactDiv {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contactTitle {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+.contactHeading {
+  color: green;
+  font-size: 20px;
+}
+.contactForm {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contactFormDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contactLabel {
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  position: relative;
+}
+.contactSpanLabel {
+  color: #3d340c;
+  font-size: 13px;
+  position: absolute;
+  padding: 2px;
+  left: 12px;
+  top: -10px;
+  z-index: 99;
+  background-color: #f3f3f3;
+}
+.contactInput {
+  background-color: inherit;
+  border: 1px solid rgba(66, 66, 66, 0.6);
+  border-radius: 5px;
+  height: 100%;
+  outline: none;
+  padding: 10px;
+  width: 60%;
+}
+.contactMessage {
+  height: 80px;
+}
+.contactInformation {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contactInformationHeading {
+  width: 100%;
+  height: 100%;
+}
+.contactInformationHeadingItem {
+  color: #3d340c;
+  font-size: 20px;
+}
+.contactInformationDiv {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contactImage {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px 0 20px 20px;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 20px 0 hsl(0deg 1% 50% / 20%);
+}
+.contactBtn {
+  color: #3d340c;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100px;
+  height: 50px;
+  margin: 30px 0 10px;
+  border: 3px solid #f2d85f;
+  background-color: #f2d85f;
+}
+.informationSpan {
+  color: #806f27;
+}
+.informationIcon {
+  margin-right: 10px;
+}
