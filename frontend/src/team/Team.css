@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 30px;
+  overflow: hidden;
 }
 .teamTitle {
   width: 100%;
