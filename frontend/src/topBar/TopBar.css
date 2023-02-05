@@ -55,3 +55,56 @@
   border-top-right-radius: 2px;
   background: none;
 }
+.centralTopBarListItems {
+  list-style: none;
+  padding-top: 20px;
+}
+.list {
+  padding-top: 20px;
+}
+
+.toggleMenu {
+  z-index: 1000;
+}
+.showBtn {
+  font-size: 30px;
+  visibility: hidden;
+}
+.sideTopBar {
+  top: 0;
+  flex-wrap: wrap;
+  height: 400px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.sideTopBarList {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .topBar {
+    justify-content: space-between;
+  }
+  .centralTopBar {
+    display: none;
+  }
+  .rightTopBar {
+    display: none;
+  }
+  .showBtn {
+    font-size: 30px;
+    visibility: visible;
+  }
+  .leftTopBar {
+    margin-left: 30px;
+  }
+  .toggleMenu {
+    margin-right: 30px;
+  }
+}
