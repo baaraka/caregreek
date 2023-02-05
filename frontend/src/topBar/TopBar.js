@@ -16,6 +16,7 @@ import "./TopBar.css";
 
 function TopBar() {
   const [currentPage, setCurrentPage] = useState("home");
+  const [show, setShow] = useState(false);
 
   const handleNavigation = (page) => {
     setCurrentPage(page);
@@ -62,6 +63,45 @@ function TopBar() {
         <div className="rightTopBar">
           <button className="rightTopBarBtn">SHEDULE SERVICES</button>
         </div>
+        <div className="toggleMenu">
+          <i
+            onClick={() => setShow(!show)}
+            className="showBtn fa-solid fa-bars"
+          ></i>
+        </div>
+        {show ? (
+          <div className="sideTopBar">
+            <ul className="sideTopBarList">
+              <l1
+                className="centralTopBarListItem list"
+                onClick={() => handleNavigation("home")}
+              >
+                Home
+              </l1>
+              <l1
+                className="centralTopBarListItem list"
+                onClick={() => handleNavigation("aboutUs")}
+              >
+                About Us
+              </l1>
+              <l1
+                className="centralTopBarListItem list"
+                onClick={() => handleNavigation("services")}
+              >
+                Services
+              </l1>
+              <l1
+                className="centralTopBarListItem list"
+                onClick={() => handleNavigation("contactUs")}
+              >
+                Contact
+              </l1>
+              <li className="centralTopBarListItems">
+                <button className="rightTopBarBtn">SHEDULE SERVICES</button>
+              </li>
+            </ul>
+          </div>
+        ) : null}
       </nav>
       {currentPage === "home" && (
         <div>
