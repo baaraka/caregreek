@@ -26,6 +26,15 @@ function Home() {
             className="homeImageItem"
           />
         </div>
+        <div className="homeDash1">
+          <ul className="homeList">
+            <li className="homeListItem1">..........</li>
+            <li className="homeListItem1">..........</li>
+            <li className="homeListItem1">..........</li>
+            <li className="homeListItem1">..........</li>
+            <li className="homeListItem1">..........</li>
+          </ul>
+        </div>
         <div className="homeDivDiv">
           <div className="homeDiv">
             <img
@@ -44,13 +53,6 @@ function Home() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </p>
           </div>
-        </div>
-        <div className="homeDash1">
-          <ul className="homeList">
-            <li className="homeListItem1">..........</li>
-            <li className="homeListItem1">..........</li>
-            <li className="homeListItem1">..........</li>
-          </ul>
         </div>
 
         <div className="homeDash3">
