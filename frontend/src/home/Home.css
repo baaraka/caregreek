@@ -2,8 +2,8 @@
   width: 100%;
   height: 100%;
   display: flex;
-  margin-top: 90px;
   overflow: hidden;
+  margin-top: 90px;
   background-image: linear-gradient(
     89.36deg,
     rgba(255, 236, 210, 0.4) -6.96%,
@@ -62,7 +62,7 @@
   width: 65%;
   height: 100%;
   display: flex;
-  bottom: 210px;
+  bottom: 320px;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -95,7 +95,7 @@
 .homeDash1 {
   width: 100%;
   height: 100%;
-  bottom: 430px;
+  bottom: 280px;
   left: 50px;
   position: relative;
   align-items: center;
@@ -125,7 +125,7 @@
 .homeDash3 {
   width: 100%;
   height: 100%;
-  bottom: 300px;
+  bottom: 340px;
   left: 190px;
   position: relative;
   align-items: center;
@@ -181,6 +181,11 @@
   }
   .homeDash1 {
     left: 0;
+    bottom: 220px;
+    display: flex;
+  }
+  .homeList {
+    margin-right: 200px;
   }
 
   .homeDash2 {
@@ -202,21 +207,23 @@
     height: 300px;
   }
   .homeDivDiv {
-    width: 100%;
-    background-color: #f2d85f;
+    width: 90%;
+    bottom: 220px;
   }
   .triangle {
     left: 0;
+    bottom: 670px;
     margin-left: 250px;
     margin-top: 30px;
   }
   .circle {
     left: 0px;
+    bottom: 700px;
   }
   .starLarge {
     visibility: visible;
     position: relative;
-    bottom: 700px;
+    bottom: 730px;
     left: 0px;
     margin-right: 250px;
   }
