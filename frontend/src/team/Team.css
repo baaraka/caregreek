@@ -2,10 +2,10 @@
   width: 100%;
   height: 100%;
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   padding-top: 30px;
-  overflow: hidden;
 }
 .teamTitle {
   width: 100%;
@@ -19,11 +19,48 @@
   color: #3d340c;
 }
 .teamParagraph {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 .teamImage {
   width: 50%;
   height: 100%;
   align-items: center;
   justify-content: center;
+}
+.teamImageItem {
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .team {
+    flex-direction: column;
+  }
+  .teamTitle {
+    margin-left: 0px;
+  }
+  .teamHeading {
+    margin-left: 20px;
+  }
+  .teamParagraph {
+    top: 310px;
+    line-height: 1.5;
+    margin-left: 20px;
+    position: relative;
+  }
+  .teamImage {
+    bottom: 140px;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .teamImageItem {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .teamImage {
+    bottom: 165px;
+  }
 }
