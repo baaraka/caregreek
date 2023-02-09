@@ -5,7 +5,7 @@ function Help() {
     <div className="help">
       <div className="helpTitleDiv">
         <div className="helpTitle">
-          <h3 className="helpHeading">Let's Help You With Your Cleaning</h3>
+          <h3 className="helpHeading">Let's Help You With Your</h3>
           <h3 className="helpHeading">Cleaning</h3>
           <p className="helpParagraph">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
