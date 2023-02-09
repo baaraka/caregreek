@@ -19,8 +19,6 @@
 .saysHeading {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
 }
 .saysHead {
   font-size: 25px;
@@ -31,14 +29,12 @@
 .sayIcon {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: end;
 }
 .saysIcon {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   margin-left: 350px;
 }
 .saysIconList {
@@ -151,4 +147,36 @@
 .starL {
   color: #f2d85f;
   padding: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+  .says {
+    overflow: hidden;
+  }
+  .saysHead {
+    margin-left: 20px;
+  }
+  .saysTitle {
+    flex-direction: column;
+  }
+  .saysIcon {
+    margin-left: 0px;
+  }
+  .sayBox1 {
+    left: 730px;
+    top: 138px;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .sayBox2 {
+    left: -200px;
+  }
+  .sayBox3 {
+    right: 880px;
+  }
 }
