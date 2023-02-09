@@ -1,8 +1,6 @@
 .footer {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
 }
 .footerDiv {
   width: 100%;
@@ -14,8 +12,6 @@
 .footerLeft {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
   margin-left: 100px;
 }
 .footerLeftParagraph {
@@ -33,8 +29,6 @@
 .footerCenter {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
   margin-left: 110px;
 }
 .footerCenterList {
@@ -50,15 +44,11 @@
 .footerRight {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 150px;
 }
 .footerRightTitle {
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
 }
 .footerRightHeading {
   color: #3d340c;
@@ -115,4 +105,43 @@
 .footerEmailItem {
   color: #806f27;
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .footerDiv {
+    flex-direction: column;
+  }
+  .footerLeft {
+    margin-left: 0px;
+  }
+  .footerLeftImage {
+    margin-left: 20px;
+  }
+  .footerLeftParagraph {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footerCenter {
+    margin-left: 0px;
+    margin-right: 60px;
+  }
+  .footerCenterList {
+    list-style: none;
+    margin-bottom: 60px;
+  }
+  .footerListItem {
+    margin-top: 30px;
+  }
+  .footerRight {
+    margin-bottom: 50px;
+  }
+  .footerRightTitle {
+    padding-left: 20px;
+  }
+  .footerRightEmail {
+    padding-left: 20px;
+  }
+  .footerContactIcon {
+    padding-left: 20px;
+  }
 }
