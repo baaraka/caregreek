@@ -109,3 +109,46 @@
   border: 3px solid #f2d85f;
   background-color: #f2d85f;
 }
+
+@media only screen and (max-width: 767px) {
+  .help {
+    flex-direction: column;
+  }
+  .helpTitleDiv {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 50px;
+  }
+  .helpHeading {
+    margin-left: 20px;
+  }
+  .helpDots {
+    top: 450px;
+    margin-left: 0px;
+    position: relative;
+  }
+  .helpDivForm {
+    bottom: 380px;
+    width: 320px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+  }
+  .helpFormHeading {
+    margin: auto;
+  }
+  .helpForm {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .helpParagraph {
+    top: 470px;
+    line-height: 1.5;
+    margin-left: 20px;
+    position: relative;
+  }
+}
