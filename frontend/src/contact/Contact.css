@@ -97,6 +97,7 @@
 .contactImage {
   width: 100%;
   height: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
   border-top-right-radius: 20px;
@@ -120,4 +121,24 @@
 }
 .informationIcon {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact {
+    width: 90%;
+    bottom: 0px;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+  .contactImageItem {
+    width: 300px;
+  }
+  .contactDivDiv {
+    position: relative;
+    top: 370px;
+  }
+  .contactImage {
+    position: relative;
+    bottom: 590px;
+  }
 }
