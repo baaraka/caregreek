@@ -12,6 +12,7 @@
   height: 100%;
   align-items: center;
   justify-content: center;
+  padding-right: 10px;
   margin-left: 100px;
 }
 .teamHeading {
@@ -24,10 +25,14 @@
 .teamImage {
   width: 50%;
   height: 100%;
+  margin-right: 100px;
   align-items: center;
   justify-content: center;
 }
 .teamImageItem {
+  width: 450px;
+  height: 350px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -52,6 +57,7 @@
     width: 100%;
     display: flex;
     position: relative;
+    margin-right: 0px;
   }
   .teamImageItem {
     height: 300px;
