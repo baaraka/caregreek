@@ -8,32 +8,32 @@ function Gallery() {
       </div>
       <div className="galleryBody">
         <img
-          src="http://caregreek.com/static/media/gallery1.d3cea0a2222ae68acff4.png"
+          src="https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
           alt=""
           className="galleryImage"
         />
         <img
-          src="http://caregreek.com/static/media/gallery2.17c41f7ed95591b3b82d.png"
+          src="https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
           alt=""
           className="galleryImage"
         />
         <img
-          src="http://caregreek.com/static/media/gallery3.03b382cae59f0805d406.png"
+          src="https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
           alt=""
           className="galleryImage"
         />
         <img
-          src="http://caregreek.com/static/media/gallery5.7777ad1b7d1db934bc64.png"
+          src="https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
           alt=""
           className="galleryImage"
         />
         <img
-          src="http://caregreek.com/static/media/gallery6.3df913961eec66571e5a.png"
+          src="https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
           alt=""
           className="galleryImage"
         />
         <img
-          src="http://caregreek.com/static/media/gallery7.e645d6f9b455448dcb45.jpeg"
+          src="https://images.unsplash.com/photo-1578496479531-32e296d5c6e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
           alt=""
           className="galleryImage"
         />
