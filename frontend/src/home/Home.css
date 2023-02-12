@@ -152,7 +152,7 @@
   left: 430px;
   position: relative;
   border-top: 15px solid transparent;
-  border-right: 34px solid rgb(67, 154, 67);
+  border-right: 34px solid #00c231;
   border-bottom: 15px solid transparent;
 }
 .starLarge {
@@ -181,11 +181,11 @@
   }
   .homeDash1 {
     left: 0;
-    bottom: 220px;
+    bottom: 250px;
     display: flex;
   }
   .homeList {
-    margin-right: 200px;
+    margin-right: 290px;
   }
 
   .homeDash2 {
@@ -203,32 +203,95 @@
     justify-content: center;
   }
   .homeImageItem {
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 380px;
   }
   .homeDivDiv {
     width: 90%;
-    bottom: 220px;
+    bottom: 240px;
   }
   .triangle {
     left: 0;
-    bottom: 670px;
-    margin-left: 250px;
+    bottom: 750px;
+    margin-left: 350px;
     margin-top: 30px;
   }
   .circle {
     left: 0px;
-    bottom: 700px;
+    bottom: 780px;
   }
   .starLarge {
     visibility: visible;
     position: relative;
-    bottom: 730px;
+    bottom: 810px;
     left: 0px;
-    margin-right: 250px;
+    margin-right: 320px;
   }
   .homeBtn {
     font-size: 14px;
     margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .homeHeading {
+    padding-right: 3px;
+  }
+  .homeImageItem {
+    width: 330px;
+    height: 330px;
+  }
+  .starLarge {
+    bottom: 760px;
+    margin-right: 280px;
+  }
+  .circle {
+    left: 0px;
+    bottom: 730px;
+  }
+  .triangle {
+    bottom: 700px;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+  .homeDash1 {
+    bottom: 240px;
+  }
+  .homeList {
+    margin-right: 230px;
+  }
+  .homeDivDiv {
+    width: 90%;
+    bottom: 230px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .homeImageItem {
+    width: 290px;
+    height: 290px;
+  }
+  .starLarge {
+    bottom: 750px;
+    margin-right: 220px;
+  }
+  .circle {
+    left: 0px;
+    bottom: 710px;
+  }
+  .triangle {
+    bottom: 690px;
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+  .homeDash1 {
+    bottom: 220px;
+  }
+  .homeList {
+    margin-right: 190px;
+  }
+  .homeDivDiv {
+    width: 90%;
+    bottom: 210px;
   }
 }
