@@ -64,9 +64,10 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 50px;
+    padding-right: 10px;
   }
   .aboutImageItem {
-    width: 90px;
+    width: 120px;
     height: 350px;
     margin-left: 10px;
   }
@@ -80,10 +81,22 @@
   }
   .aboutParagraph {
     margin-left: 20px;
-    padding-right: 0px;
+    padding-right: 10px;
     line-height: 1.5;
   }
   .aboutBtn {
     margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .aboutImageItem {
+    width: 105px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .aboutImageItem {
+    width: 85px;
   }
 }
