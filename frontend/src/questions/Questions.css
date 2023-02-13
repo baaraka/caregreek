@@ -36,6 +36,7 @@
   font-size: 18px;
   padding: 20px;
   line-height: 1.6;
+  cursor: pointer;
 }
 .questionsBodyItems {
   width: 100%;
