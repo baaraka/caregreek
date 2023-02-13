@@ -1,6 +1,6 @@
 import "./Services.css";
 
-function Services() {
+function Services(props) {
   return (
     <div className="services">
       <div className="servicesTitle">
@@ -105,7 +105,12 @@ function Services() {
         </div>
       </div>
       <div className="serviceButton">
-        <button className="servicesBtn">View More</button>
+        <button
+          onClick={() => props.handleNavigation("services")}
+          className="servicesBtn"
+        >
+          View More
+        </button>
       </div>
     </div>
   );
