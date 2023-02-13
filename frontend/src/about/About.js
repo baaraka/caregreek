@@ -1,6 +1,6 @@
 import "./About.css";
 
-function About() {
+function About(props) {
   return (
     <div className="about">
       <div className="aboutImage">
@@ -29,7 +29,12 @@ function About() {
           repudiandae aperiam blanditiis? Lorem ipsum,repudiandae aperiam
           blanditiis?
         </p>
-        <button className="aboutBtn">READ MORE</button>
+        <button
+          onClick={() => props.handleNavigation("aboutUs")}
+          className="aboutBtn"
+        >
+          READ MORE
+        </button>
       </div>
     </div>
   );
