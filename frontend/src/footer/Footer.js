@@ -1,13 +1,13 @@
 import "./Footer.css";
 
-function Footer() {
+function Footer(props) {
   return (
     <div className="footer">
       <div className="footerDiv">
         <div className="footerLeft">
           <div className="footerLeftImage">
             <img
-              src="http://caregreek.com/static/media/logo.597684787fc988fd5ffb.png"
+              src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
               alt=""
               className="footerImgLeft"
             />
@@ -24,10 +24,30 @@ function Footer() {
         </div>
         <div className="footerCenter">
           <ul className="footerCenterList">
-            <li className="footerListItem">Home</li>
-            <li className="footerListItem">About Us</li>
-            <li className="footerListItem">Services</li>
-            <li className="footerListItem">Contact</li>
+            <li
+              onClick={() => props.handleNavigation("home")}
+              className="footerListItem"
+            >
+              Home
+            </li>
+            <li
+              onClick={() => props.handleNavigation("aboutUs")}
+              className="footerListItem"
+            >
+              About Us
+            </li>
+            <li
+              onClick={() => props.handleNavigation("services")}
+              className="footerListItem"
+            >
+              Services
+            </li>
+            <li
+              onClick={() => props.handleNavigation("contactUs")}
+              className="footerListItem"
+            >
+              Contact
+            </li>
           </ul>
         </div>
         <div className="footerRight">
