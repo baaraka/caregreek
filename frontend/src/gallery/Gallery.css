@@ -7,12 +7,12 @@
 .galleryTitle {
   width: 100%;
   height: auto;
-  text-align: center;
   padding-top: 50px;
 }
 .galleryHeading {
   font-size: 25px;
   color: #3d340c;
+  text-align: center;
 }
 .galleryBody {
   width: 100%;
@@ -27,4 +27,27 @@
   width: 330px;
   margin: 20px;
   border-radius: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .galleryHeading {
+    text-align: start;
+    margin-left: 20px;
+  }
+  .galleryImage {
+    height: 380px;
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .galleryImage {
+    height: 330px;
+    width: 330px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .galleryImage {
+    height: 290px;
+    width: 290px;
+  }
 }
