@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 .whyTitle {
   width: 50%;
@@ -68,33 +67,45 @@
     margin-right: 0px;
   }
   .whyVideo {
-    width: 300px;
+    width: 380px;
     height: 300px;
-    border-radius: 10px;
   }
   .whyParagraph {
     padding-right: 0px;
     line-height: 1.5;
   }
   .whySpanDivDiv {
-    top: 320px;
+    top: 310px;
     position: relative;
   }
   .whySpanDiv {
     margin-left: 20px;
+    padding-right: 10px;
   }
 }
 
 @media only screen and (max-width: 424px) {
   .whyVideoBody {
     bottom: 260px;
-    position: relative;
+  }
+  .whyVideo {
+    width: 330px;
+    height: 260px;
+  }
+  .whySpanDivDiv {
+    top: 280px;
   }
 }
 
 @media only screen and (max-width: 374px) {
   .whyVideoBody {
     bottom: 310px;
-    position: relative;
+  }
+  .whyVideo {
+    width: 290px;
+    height: 220px;
+  }
+  .whySpanDivDiv {
+    top: 240px;
   }
 }
