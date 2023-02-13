@@ -17,7 +17,10 @@
   padding-top: 10px;
 }
 .leftBarImg {
+  height: 70px;
+  width: 200px;
   object-fit: cover;
+  border-radius: 20px;
 }
 .centralTopBar {
   flex: 6;
