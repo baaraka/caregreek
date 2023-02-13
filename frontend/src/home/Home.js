@@ -1,6 +1,6 @@
 import "./Home.css";
 
-function Home() {
+function Home(props) {
   return (
     <div className="home">
       <div className="homeTitle">
@@ -10,7 +10,12 @@ function Home() {
             We Are A Certified Cleaning Company
           </span>
         </h1>
-        <button className="homeBtn">SHEDULE SERVICES</button>
+        <button
+          onClick={() => props.handleNavigation("contactUs")}
+          className="homeBtn"
+        >
+          SHEDULE SERVICES
+        </button>
       </div>
       <div className="homeLeft">
         <div className="homeDash2">
