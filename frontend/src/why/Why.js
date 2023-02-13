@@ -15,7 +15,6 @@ function Why() {
               to ensure accountability each and every time;
             </p>
           </div>
-
           <div className="whySpanDiv">
             <span className="whyIconSpan">
               <i className="whyIcon fa-solid fa-check"></i>
