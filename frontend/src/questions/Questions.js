@@ -1,6 +1,16 @@
+import { useState } from "react";
 import "./Questions.css";
 
 function Questions() {
+  const [toggle1, setToggle1] = useState(false);
+  const [toggle2, setToggle2] = useState(false);
+  const [toggle3, setToggle3] = useState(false);
+  const [toggle4, setToggle4] = useState(false);
+
+  const toggleHandler = (toggle, setToggle) => {
+    setToggle(!toggle);
+  };
+
   return (
     <div className="questions">
       <div className="questionsTitle">
@@ -15,9 +25,17 @@ function Questions() {
               placeat corporis nostrum quos! Beatae, culpa aliquid quibusdam
               consequatur iste autem soluta ratione?
             </h6>
-            <i class="questionsIcon fa-solid fa-chevron-down"></i>
+            <i
+              className={`questionsIcon fa-solid ${
+                toggle1 ? "fa-chevron-up" : "fa-chevron-down"
+              }`}
+              onClick={() => toggleHandler(toggle1, setToggle1)}
+            ></i>
           </div>
-          <div className="questionsParagraph">
+          <div
+            className="questionsParagraph"
+            style={{ display: toggle1 ? "block" : "none" }}
+          >
             <p className="questionsParagraphItem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus, molestias rerum quas cupiditate voluptates dignissimos,
@@ -34,9 +52,17 @@ function Questions() {
               placeat corporis nostrum quos! Beatae, culpa aliquid quibusdam
               consequatur iste autem soluta ratione?
             </h6>
-            <i class="questionsIcon fa-solid fa-chevron-down"></i>
+            <i
+              className={`questionsIcon fa-solid ${
+                toggle2 ? "fa-chevron-up" : "fa-chevron-down"
+              }`}
+              onClick={() => toggleHandler(toggle2, setToggle2)}
+            ></i>
           </div>
-          <div className="questionsParagraph">
+          <div
+            className="questionsParagraph"
+            style={{ display: toggle2 ? "block" : "none" }}
+          >
             <p className="questionsParagraphItem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus, molestias rerum quas cupiditate voluptates dignissimos,
@@ -53,9 +79,17 @@ function Questions() {
               placeat corporis nostrum quos! Beatae, culpa aliquid quibusdam
               consequatur iste autem soluta ratione?
             </h6>
-            <i class="questionsIcon fa-solid fa-chevron-down"></i>
+            <i
+              className={`questionsIcon fa-solid ${
+                toggle3 ? "fa-chevron-up" : "fa-chevron-down"
+              }`}
+              onClick={() => toggleHandler(toggle3, setToggle3)}
+            ></i>
           </div>
-          <div className="questionsParagraph">
+          <div
+            className="questionsParagraph"
+            style={{ display: toggle3 ? "block" : "none" }}
+          >
             <p className="questionsParagraphItem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus, molestias rerum quas cupiditate voluptates dignissimos,
@@ -72,9 +106,17 @@ function Questions() {
               placeat corporis nostrum quos! Beatae, culpa aliquid quibusdam
               consequatur iste autem soluta ratione?
             </h6>
-            <i class="questionsIcon fa-solid fa-chevron-down"></i>
+            <i
+              className={`questionsIcon fa-solid ${
+                toggle4 ? "fa-chevron-up" : "fa-chevron-down"
+              }`}
+              onClick={() => toggleHandler(toggle4, setToggle4)}
+            ></i>
           </div>
-          <div className="questionsParagraph">
+          <div
+            className="questionsParagraph"
+            style={{ display: toggle4 ? "block" : "none" }}
+          >
             <p className="questionsParagraphItem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus, molestias rerum quas cupiditate voluptates dignissimos,
