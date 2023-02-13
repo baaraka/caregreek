@@ -128,8 +128,8 @@
     position: relative;
   }
   .helpDivForm {
-    bottom: 380px;
-    width: 320px;
+    bottom: 410px;
+    width: 380px;
     height: 450px;
     margin: auto;
     position: relative;
@@ -138,7 +138,7 @@
     margin: auto;
   }
   .helpForm {
-    width: 300px;
+    width: 380px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -149,6 +149,27 @@
     top: 470px;
     line-height: 1.5;
     margin-left: 20px;
+    padding-right: 10px;
     position: relative;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .helpDivForm {
+    bottom: 430px;
+    width: 330px;
+  }
+  .helpForm {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .helpDivForm {
+    bottom: 480px;
+    width: 290px;
+  }
+  .helpForm {
+    width: 290px;
   }
 }
