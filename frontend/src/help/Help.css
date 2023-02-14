@@ -128,7 +128,7 @@
     position: relative;
   }
   .helpDivForm {
-    bottom: 410px;
+    bottom: 400px;
     width: 380px;
     height: 450px;
     margin: auto;
@@ -146,7 +146,7 @@
     justify-content: center;
   }
   .helpParagraph {
-    top: 470px;
+    top: 480px;
     line-height: 1.5;
     margin-left: 20px;
     padding-right: 10px;
@@ -156,8 +156,9 @@
 
 @media only screen and (max-width: 424px) {
   .helpDivForm {
-    bottom: 430px;
+    bottom: 410px;
     width: 330px;
+    padding-top: 20px;
   }
   .helpForm {
     width: 330px;
@@ -166,7 +167,7 @@
 
 @media only screen and (max-width: 374px) {
   .helpDivForm {
-    bottom: 480px;
+    bottom: 460px;
     width: 290px;
   }
   .helpForm {
