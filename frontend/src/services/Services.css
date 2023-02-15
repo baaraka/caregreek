@@ -72,6 +72,22 @@
   line-height: 1.6;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .servicesHeading {
+    text-align: start;
+    margin-left: 20px;
+  }
+  .divHeadingBody {
+    width: 90%;
+  }
+  .serviceButton {
+    text-align: start;
+  }
+  .servicesBtn {
+    margin-left: 20px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .servicesHeading {
     text-align: start;
