@@ -150,6 +150,35 @@
   padding: 2px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .saysHead {
+    margin-left: 20px;
+  }
+  .saysTitle {
+    flex-direction: column;
+  }
+  .saysIcon {
+    margin-left: 0px;
+  }
+  .sayBox1 {
+    left: 630px;
+    top: 138px;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .sayBox2 {
+    left: -200px;
+  }
+  .sayBox3 {
+    right: 880px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .saysHead {
     margin-left: 20px;
