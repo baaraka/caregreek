@@ -118,6 +118,45 @@
   margin-left: 10px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footerDiv {
+    flex-direction: column;
+  }
+  .footerLeft {
+    margin-left: 0px;
+  }
+  .footerLeftImage {
+    margin-left: 20px;
+  }
+  .footerLeftParagraph {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footerCenter {
+    margin-left: 0px;
+    margin-right: 60px;
+  }
+  .footerCenterList {
+    list-style: none;
+    margin-bottom: 60px;
+  }
+  .footerListItem {
+    margin-top: 30px;
+  }
+  .footerRight {
+    margin-bottom: 50px;
+  }
+  .footerRightTitle {
+    padding-left: 20px;
+  }
+  .footerRightEmail {
+    padding-left: 20px;
+  }
+  .footerContactIcon {
+    padding-left: 20px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .footerDiv {
     flex-direction: column;
