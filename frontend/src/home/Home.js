@@ -59,7 +59,6 @@ function Home(props) {
             </p>
           </div>
         </div>
-
         <div className="homeDash3">
           <ul className="homeList">
             <li className="homeListItem3">...</li>
