@@ -110,6 +110,50 @@
   background-color: #f2d85f;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .help {
+    flex-direction: column;
+  }
+  .helpTitleDiv {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 50px;
+  }
+  .helpHeading {
+    margin-left: 20px;
+  }
+  .helpDots {
+    top: 450px;
+    margin-left: 0px;
+    position: relative;
+  }
+  .helpDivForm {
+    bottom: 260px;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+  }
+  .helpFormHeading {
+    margin: auto;
+  }
+  .helpForm {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .helpParagraph {
+    top: 480px;
+    line-height: 1.5;
+    margin-left: 20px;
+    padding-right: 10px;
+    position: relative;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .help {
     flex-direction: column;
