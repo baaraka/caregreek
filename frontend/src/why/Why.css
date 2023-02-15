@@ -4,6 +4,7 @@
   margin-top: -370px;
   padding-top: 100px;
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
 }
@@ -43,6 +44,45 @@
   height: 350px;
   border-radius: 10px;
   object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why {
+    flex-direction: column;
+  }
+  .whyTitle {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .whyHeading {
+    margin-left: 20px;
+  }
+  .whyVideoBody {
+    width: 100%;
+    bottom: 160px;
+    margin-left: 0px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .whyVideo {
+    width: 750px;
+    height: 600px;
+  }
+  .whyParagraph {
+    padding-right: 0px;
+    line-height: 1.5;
+  }
+  .whySpanDivDiv {
+    top: 620px;
+    position: relative;
+  }
+  .whySpanDiv {
+    margin-left: 20px;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
