@@ -41,7 +41,6 @@
 .homeLeft {
   width: 100%;
   height: 100%;
-  align-items: center;
 }
 .homeImage {
   width: 100%;
@@ -70,8 +69,6 @@
 .homeDiv {
   width: 30%;
   height: 100%;
-  align-items: center;
-  justify-content: center;
   margin-right: 40px;
 }
 .homeImg {
@@ -113,8 +110,6 @@
   bottom: 20px;
   left: 180px;
   position: relative;
-  align-items: center;
-  justify-content: center;
 }
 .homeListItem2 {
   font-size: 50px;
@@ -126,8 +121,6 @@
   bottom: 340px;
   left: 190px;
   position: relative;
-  align-items: center;
-  justify-content: center;
 }
 .homeListItem3 {
   font-size: 50px;
@@ -160,6 +153,82 @@
   position: relative;
   bottom: 700px;
   left: 300px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home {
+    flex-direction: column;
+  }
+  .homeTitle {
+    margin-left: 0;
+  }
+  .homeHeading {
+    padding-left: 20px;
+    font-size: 40px;
+  }
+  .homeLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeDash1 {
+    left: 0px;
+    bottom: 400px;
+    display: flex;
+  }
+  .homeList {
+    margin-right: 650px;
+  }
+
+  .homeDash2 {
+    display: none;
+  }
+  .homeDash3 {
+    display: none;
+  }
+  .homeImage {
+    left: 0px;
+    bottom: 0px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .homeImageItem {
+    width: 750px;
+    height: 750px;
+  }
+  .homeDivDiv {
+    width: 80%;
+    bottom: 280px;
+    padding: 20px 0;
+    margin-left: 20px;
+  }
+  .homeDiv {
+    width: 20%;
+  }
+  .triangle {
+    left: 0;
+    bottom: 1100px;
+    margin-left: 650px;
+    margin-top: 30px;
+  }
+  .circle {
+    left: 0px;
+    bottom: 1130px;
+    margin-left: 350px;
+  }
+  .starLarge {
+    visibility: visible;
+    position: relative;
+    bottom: 1150px;
+    left: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+  .homeBtn {
+    font-size: 14px;
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
