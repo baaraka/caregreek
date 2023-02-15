@@ -52,6 +52,43 @@
   background-color: #f2d85f;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about {
+    flex-direction: column;
+    bottom: 330px;
+  }
+  .aboutImage {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-right: 10px;
+  }
+  .aboutImageItem {
+    width: 240px;
+    height: 350px;
+    margin-left: 10px;
+  }
+  .aboutTitle {
+    width: 100%;
+  }
+  .aboutHeading {
+    bottom: 550px;
+    position: relative;
+    margin-left: 20px;
+  }
+  .aboutParagraph {
+    margin-left: 20px;
+    padding-right: 10px;
+    line-height: 1.5;
+  }
+  .aboutBtn {
+    margin-left: 20px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .about {
     flex-direction: column;
