@@ -3,6 +3,23 @@ import "./AboutUs.css";
 function AboutUs() {
   return (
     <div>
+      <div className="homeAboutUs">
+        <div className="homeAboutUsTitle">
+          <h3 className="homeAboutUsHeading">About Us</h3>
+        </div>
+        <div className="homeAboutUsListDiv">
+          <ul className="homeAboutUsList">
+            <li className="homeAboutUsListItem">............</li>
+            <li className="homeAboutUsListItem">............</li>
+            <li className="homeAboutUsListItem">............</li>
+            <li className="homeAboutUsListItem">............</li>
+            <li className="homeAboutUsListItem">............</li>
+            <li className="homeAboutUsListItem">............</li>
+            <li className="homeAboutUsListItem">............</li>
+            <li className="homeAboutUsListItem">............</li>
+          </ul>
+        </div>
+      </div>
       <div className="aboutUs">
         <div className="aboutImage">
           <img
