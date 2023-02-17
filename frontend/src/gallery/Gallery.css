@@ -29,13 +29,6 @@
   border-radius: 10px;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .galleryImage {
-    height: 280px;
-    width: 280px;
-  }
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .galleryHeading {
     text-align: start;
