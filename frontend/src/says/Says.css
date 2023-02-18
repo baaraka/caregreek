@@ -150,6 +150,12 @@
   padding: 2px;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sayIcon {
+    margin-right: 60px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .saysHead {
     margin-left: 20px;
