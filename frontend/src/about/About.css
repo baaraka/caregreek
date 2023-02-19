@@ -52,6 +52,13 @@
   background-color: #f2d85f;
 }
 
+@media only screen and (min-width: 1200px) {
+  .aboutTitle {
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .aboutTitle {
     margin-left: 60px;
