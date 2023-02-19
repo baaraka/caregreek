@@ -107,6 +107,16 @@
   background-color: #f2d85f;
 }
 
+@media only screen and (min-width: 1200px) {
+  .helpParagraph {
+    padding-right: 12px;
+  }
+
+  .helpDivForm {
+    margin-right: 140px;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .helpTitleDiv {
     margin-left: 100px;
