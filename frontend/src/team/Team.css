@@ -35,6 +35,12 @@
   object-fit: cover;
 }
 
+@media only screen and (min-width: 1200px) {
+  .teamImage {
+    margin-right: 150px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team {
     flex-direction: column;
