@@ -155,6 +155,15 @@
   left: 300px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .triangle {
+    bottom: 730px;
+  }
+  .circle {
+    bottom: 730px;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .homeLeft {
     right: 50px;
